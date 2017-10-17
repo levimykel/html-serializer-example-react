@@ -2,6 +2,15 @@
 
 This is an example Universal React website with content managed from [prismic.io](https://prismic.io) (an API-based CMS) which demonstrates a working HTML Serializer.
 
+## HTML Serializer
+
+The HTML Serializer can be found in the prismic configuration file at src/prismic-configuration.js.
+
+You will see that this example changes the html output in the following ways:
+ - Adding a class to all paragraph elements
+ - Adding a class to all hyperlink elements
+ - Preventing images from being surrounded by a paragraph element
+
 ## Getting started
 
 To get started, clone this repository or download the project files.
