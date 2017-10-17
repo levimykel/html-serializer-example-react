@@ -1,6 +1,6 @@
-# Universal React Website with prismic.io
+# Universal React Website using prismic.io HTML Serializer
 
-This is an example Universal React website with content managed from [prismic.io](https://prismic.io) (an API-based CMS).
+This is an example Universal React website with content managed from [prismic.io](https://prismic.io) (an API-based CMS) which demonstrates a working HTML Serializer.
 
 ## Getting started
 
@@ -36,6 +36,7 @@ Available commands to run with `npm run`:
 
 Here is where you can find all the important files for this application:
 
+ - **HTML Serializer**: The HTML Serializer is located with the configuration in src/prismic-configuration.js
  - **Components**: All the components for this application are located in the src/shared/app folder
  - **Prismic Configuration**: The configuration for the prismic repository is found in src/prismic-configuration.js
  - **Router**: The router & routes are located in src/shared/router.js and src/shared/routes.js
