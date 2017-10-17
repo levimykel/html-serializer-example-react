@@ -24,7 +24,7 @@ class HomePage extends React.Component {
           <div className="container">
             {RichText.render(document.data['site-title'], PrismicConfig.linkResolver)}
             <img className="site-image" src={document.data.image.url}/>
-            {RichText.render(document.data.text, PrismicConfig.linkResolver)}
+            {RichText.render(document.data.text, PrismicConfig.linkResolver, PrismicConfig.htmlSerializer)}
           </div>
         </div>
       );
